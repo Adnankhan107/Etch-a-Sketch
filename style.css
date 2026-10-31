@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-Container{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#reset-button{
+    padding: 8px 16px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#select-grid{
+    padding: 8px 16px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+
+.gridRow {
+    display: flex;
+    flex: 1;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid #ddd;
+}
